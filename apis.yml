@@ -1,9 +1,38 @@
 aid: darwin
 name: Darwin
-description: 'Darwin is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: government. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Darwin AI is an AI governance platform built exclusively for state, local, and
+  education (SLED) government agencies, providing a centralized, secure hub for
+  the public sector to safely adopt, manage, and govern AI tools while ensuring
+  compliance, accountability, and public records requirements are met. The
+  platform serves IT departments, innovation and digital services teams,
+  city and county management, and data governance professionals across municipal
+  and state government. Its core product surface includes the Control Center,
+  which delivers cross-departmental visibility into AI usage along with records
+  management and FOIA compliance tracking; the Policy Wizard, which helps agencies
+  establish and refine AI policies aligned to regulatory requirements using 30+
+  policy frameworks and 15+ city and county regulation packs; Risk Management,
+  which detects unauthorized or unvetted AI applications; the AI Navigator, which
+  monitors departmental adoption patterns and surfaces actionable insights; and
+  the Marketplace, an organization-wide hub of approved AI applications. Darwin AI
+  was named to Government Technology's 2026 GovTech 100. The company also publishes
+  a free public Policy Wizard tool. Darwin is backed by Insight Partners and was
+  added to the API Evangelist network as a government-sector company profile. As of
+  this enrichment pass Darwin publishes no public API, developer portal, SDKs, or
+  OpenAPI, so this profile captures identity and domain-security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/darwin/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/674988313ec1e57f3bac35bc/6877ce76ed05a58e2e036142_Frame%2010.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +41,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Government
+- Artificial Intelligence
+- AI Governance
+- Public Sector
+- Compliance
+- GovTech
+- Policy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +60,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.darwingov.com/
+- type: Blog
+  url: https://www.darwingov.com/blog
+- type: Support
+  url: https://www.darwingov.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.darwingov.com/privacy-policy
+- type: TermsOfService
+  url: https://www.darwingov.com/terms-of-use
+- type: LinkedIn
+  url: https://www.linkedin.com/company/darwin-ai-for-gov/
+- type: DomainSecurity
+  url: security/darwin-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
