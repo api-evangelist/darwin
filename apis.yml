@@ -21,6 +21,17 @@ description: >-
   this enrichment pass Darwin publishes no public API, developer portal, SDKs, or
   OpenAPI, so this profile captures identity and domain-security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/darwin/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
